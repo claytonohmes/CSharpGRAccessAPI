@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<raw_reason_list>
+  <default_raw_reason raw_reas_cd="RC_20002" overwrite="True"/>
+  <raw_reason raw_reas_cd="RC_00000" prompt="False" priority="1000000000" min_time_before_activation="00:00:00" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml" description="Running">
+    <expression><![CDATA[MyContainer.UtilStat == 0]]></expression>
+    <default_reason reas_grp_desc_1="Orangeville" reas_grp_desc_2="Generic" reas_desc="Running" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml"/>
+  </raw_reason>
+  <raw_reason raw_reas_cd="RC_00011" prompt="False" priority="1000000011" min_time_before_activation="00:00:00" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml" description="Planned Downtime">
+    <expression><![CDATA[MyContainer.UtilStat == 11]]></expression>
+    <default_reason reas_grp_desc_1="Orangeville" reas_grp_desc_2="L299 BagMachine" reas_grp_desc_3="Excluded Time" reas_desc="Planned Downtime" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml"/>
+  </raw_reason>
+  <raw_reason raw_reas_cd="RC_20001" prompt="False" priority="1" min_time_before_activation="00:00:00" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml" description="Connection Loss">
+    <expression><![CDATA[MyContainer.UtilStat < 0]]></expression>
+    <default_reason reas_grp_desc_1="Orangeville" reas_grp_desc_2="Generic" reas_desc="Connection Loss" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml"/>
+  </raw_reason>
+  <raw_reason raw_reas_cd="RC_20002" prompt="False" priority="20002" min_time_before_activation="00:00:00" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml" description="UNKNOWN">
+    <expression><![CDATA[MyContainer.UtilStat > 0]]></expression>
+    <default_reason reas_grp_desc_1="Orangeville" reas_grp_desc_2="Generic" reas_desc="UNKNOWN" last_edit_comment="Generated from ABLE Config: idc Orangeville 20250410 - 03.xml"/>
+  </raw_reason>
+</raw_reason_list>
